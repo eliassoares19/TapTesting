@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tapping Test"
+        android:id="@+id/bttaptesting"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/btmeem"
+        android:layout_alignRight="@+id/btmeem"
+        android:layout_alignEnd="@+id/btmeem"
+        android:layout_alignLeft="@+id/btmeem"
+        android:layout_alignStart="@+id/btmeem" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bem-vindo!"
+        android:id="@+id/txtWelcome"
+        android:layout_marginTop="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mini Exame do Estado Mental"
+        android:id="@+id/btmeem"
+        android:layout_below="@+id/txtWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PDQ-39"
+        android:id="@+id/btpdq"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/bttaptesting"
+        android:layout_alignRight="@+id/bttaptesting"
+        android:layout_alignEnd="@+id/bttaptesting"
+        android:layout_alignLeft="@+id/bttaptesting"
+        android:layout_alignStart="@+id/bttaptesting" />
+
+</RelativeLayout>

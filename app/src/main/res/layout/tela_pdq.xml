@@ -1,0 +1,2683 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollMeem"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:fillViewport="false"
+    android:focusable="false"
+    android:clickable="false"
+    android:focusableInTouchMode="false"
+    android:contextClickable="false"
+    android:nestedScrollingEnabled="false"
+    android:touchscreenBlocksFocus="false" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="8797dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Questionário PDQ 39"
+                android:id="@+id/txtPdq39"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="MOBILIDADE"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/textView24"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp"
+                android:autoText="false"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:textColor="#020202" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="1. Teve dificuldade para realizar atividades de lazer as quais gosta?"
+                android:id="@+id/textView6"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes1"
+                android:checked="false"
+                android:layout_below="@+id/checkRaramente1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca1"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView6"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente1"
+                android:checked="false"
+                android:layout_below="@+id/checkNunca1"
+                android:layout_alignParentLeft="true"
+                android:onClick="onCheckboxClicked"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- Devido a doença de Parkinson, quantas vezes, durante o mês passado você..."
+                android:id="@+id/textView24"
+                android:layout_below="@+id/txtPdq39"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente1"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkAlgumasVezes1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre1"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkFrequentemente1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="2. Teve dificuldade para cuidar da casa?"
+                android:id="@+id/textView25"
+                android:layout_below="@+id/checkSempre1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca2"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView25"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente2"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca2"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes2"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente2"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente2"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes2"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre2"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente2"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="3. Teve dificuldade para carregar sacolas?"
+                android:id="@+id/textView26"
+                android:layout_below="@+id/checkSempre2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="28dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca3"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView26"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente3"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca3"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes3"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente3"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente3"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes3"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre3"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente3"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="4. Teve problemas para andar aproximadamente 1km?"
+                android:id="@+id/textView27"
+                android:layout_below="@+id/checkSempre3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="29dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca4"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView27"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente4"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca4"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes4"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente4"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente4"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes4"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre4"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente4"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="5. Teve problemas para andar aproximadamente 100m?"
+                android:id="@+id/textView28"
+                android:layout_below="@+id/checkSempre4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="26dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca5"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView28"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente5"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca5"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes5"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente5"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente5"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes5"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre5"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente5"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="6. Teve problemas para andar pela casa com a facilidade que gostaria?"
+                android:id="@+id/textView29"
+                android:layout_below="@+id/checkSempre5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="28dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca6"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView29"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente6"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca6"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes6"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente6"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente6"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes6"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre6"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente6"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="7. Teve dificuldade para andar em lugares públicos?"
+                android:id="@+id/textView30"
+                android:layout_below="@+id/checkSempre6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="25dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca7"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView30"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente7"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca7"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes7"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente7"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente7"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes7"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre7"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente7"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="8. Precisou de alguma pessoa para acompanhá-lo ao sair de casa?"
+                android:id="@+id/textView31"
+                android:layout_below="@+id/checkSempre7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="29dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca8"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView31"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente8"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca8"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes8"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente8"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente8"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes8"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre8"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente8"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="9. Teve medo ou preocupação de cair em público?"
+                android:id="@+id/textView32"
+                android:layout_marginTop="29dp"
+                android:layout_below="@+id/checkSempre8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca9"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView32"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente9"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca9"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes9"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente9"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente9"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes9"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre9"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente9"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="10. Ficou em casa mais tempo que gostaria?"
+                android:id="@+id/textView33"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/checkSempre9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca10"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView33"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente10"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca10"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes10"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente10"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente10"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes10"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre10"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente10"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ATIVIDADE DE VIDA DIÁRIA"
+                android:id="@+id/textView34"
+                android:layout_marginTop="26dp"
+                android:autoText="false"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:textColor="#020202"
+                android:layout_below="@+id/checkSempre10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="11. Teve dificuldade de tomar banho?"
+                android:id="@+id/textView35"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView34"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca11"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView35"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente11"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca11"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes11"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente11"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente11"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes11"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre11"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente11"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="12. Teve dificuldade para vestir-se?"
+                android:id="@+id/textView36"
+                android:layout_below="@+id/checkSempre11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="29dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca12"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView36"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente12"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca12"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes12"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente12"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente12"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes12"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre12"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente12"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="13. Teve dificuldade com botões ou cadarços?"
+                android:id="@+id/textView37"
+                android:layout_below="@+id/checkSempre12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="31dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca13"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView37"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente13"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca13"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes13"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente13"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente13"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes13"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre13"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente13"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="14. Teve dificuldade para escrever claramente?"
+                android:id="@+id/textView38"
+                android:layout_below="@+id/checkSempre13"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="27dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca14"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView38"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente14"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca14"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes14"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente14"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente14"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes14"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre14"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente14"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="15. Teve dificuldade para cortar a comida?"
+                android:id="@+id/textView39"
+                android:layout_below="@+id/checkSempre14"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="31dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca15"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView39"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente15"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca15"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes15"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente15"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente15"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes15"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre15"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente15"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="16. Teve dificuldade para beber sem derramar?"
+                android:id="@+id/textView40"
+                android:layout_below="@+id/checkSempre15"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="36dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca16"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView40"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente16"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca16"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes16"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente16"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente16"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes16"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre16"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente16"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="BEM-ESTAR EMOCIONAL"
+                android:id="@+id/textView41"
+                android:layout_marginTop="34dp"
+                android:autoText="false"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:textColor="#020202"
+                android:layout_below="@+id/checkSempre16"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="17. Sentiu-se depressivo?"
+                android:id="@+id/textView42"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView41"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca17"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView42"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente17"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca17"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes17"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente17"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente17"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes17"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre17"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente17"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="18. Sentiu-se isolado e sozinho?"
+                android:id="@+id/textView43"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre17"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca18"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView43"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente18"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca18"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes18"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente18"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente18"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes18"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre18"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente18"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="19. Sentiu-se triste ou chorou?"
+                android:id="@+id/textView44"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre18"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca19"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView44"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente19"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca19"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes19"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente19"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente19"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes19"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre19"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente19"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="20. Sentiu-se magoado?"
+                android:id="@+id/textView45"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre19"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca20"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView45"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente20"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca20"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes20"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente20"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente20"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes20"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre20"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente20"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="21. Sentiu-se ansioso?"
+                android:id="@+id/textView46"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre20"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca21"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView46"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente21"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca21"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes21"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente21"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente21"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes21"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre21"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente21"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="22. Sentiu-se preocupado com o futuro?"
+                android:id="@+id/textView47"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre21"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca22"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView47"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente22"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca22"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes22"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente22"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente22"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes22"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre22"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente22"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ESTIGMA"
+                android:id="@+id/textView48"
+                android:layout_marginTop="33dp"
+                android:autoText="false"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:textColor="#020202"
+                android:layout_below="@+id/checkSempre22"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="23. Sentiu que tinha que esconder a doença para outras pessoas?"
+                android:id="@+id/textView49"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView48"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca23"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView49"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente23"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca23"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes23"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente23"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente23"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes23"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre23"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente23"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="24. Evitou situaçoes que envolviam comer ou beber em público?"
+                android:id="@+id/textView50"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre23"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca24"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView50"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente24"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca24"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes24"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente24"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente24"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes24"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre24"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente24"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="25. Sentiu-se envergonhado em público?"
+                android:id="@+id/textView51"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre24"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca25"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView51"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente25"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca25"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes25"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente25"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente25"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes25"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre25"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente25"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="26. Sentiu-se preocupado com a reação de outras pessoas em relação à você?"
+                android:id="@+id/textView52"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre25"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca26"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView52"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente26"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca26"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes26"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente26"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente26"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes26"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre26"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente26"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="SUPORTE SOCIAL"
+                android:id="@+id/textView53"
+                android:layout_marginTop="34dp"
+                android:autoText="false"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:textColor="#020202"
+                android:layout_below="@+id/checkSempre26"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="27. Teve problemas no relacionamento com pessoas próximas?"
+                android:id="@+id/textView54"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView53"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca27"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView54"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente27"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca27"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes27"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente27"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente27"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes27"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre27"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente27"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="28. Recebeu apoio que precisava do seu conjugue ou parceiro?"
+                android:id="@+id/textView55"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre27"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca28"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView55"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente28"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca28"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes28"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente28"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente28"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes28"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre28"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente28"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="29. Recebeu apoio que precisava da família e amigos íntimos?"
+                android:id="@+id/textView56"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre28"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca29"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView56"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente29"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca29"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes29"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente29"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente29"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes29"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre29"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente29"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="COGNIÇÃO"
+                android:id="@+id/textView58"
+                android:layout_marginTop="24dp"
+                android:autoText="false"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:textColor="#020202"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre29" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="30. Adormeceu inesperadamente durante o dia?"
+                android:id="@+id/textView59"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView58"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca30"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView59"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente30"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca30"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes30"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente30"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente30"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes30"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre30"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente30"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="31. Teve problemas de concentração?"
+                android:id="@+id/textView60"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre30"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca31"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView60"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente31"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca31"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes31"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente31"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente31"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes31"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre31"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente31"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="32. Teve falta de memória?"
+                android:id="@+id/textView61"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre31"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca32"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView61"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente32"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca32"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes32"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente32"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente32"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes32"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre32"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente32"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="33. Teve pesadelos ou alucinações?"
+                android:id="@+id/textView62"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre32"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca33"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView62"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente33"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca33"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes33"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente33"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente33"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes33"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre33"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente33"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="COMUNICAÇÃO"
+                android:id="@+id/textView66"
+                android:layout_marginTop="36dp"
+                android:autoText="false"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:textColor="#020202"
+                android:layout_below="@+id/checkSempre33"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="34. Teve dificuldade para falar?"
+                android:id="@+id/textView67"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView66"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca34"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView67"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente34"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca34"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes34"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente34"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente34"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes34"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre34"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente34"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="35. Sentiu que não podia comunicar-se efetivamente?"
+                android:id="@+id/textView68"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre34"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca35"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView68"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente35"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca35"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes35"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente35"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente35"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes35"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre35"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente35"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="36. Sentiu-se ignorado pelas pessoas?"
+                android:id="@+id/textView69"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre35"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca36"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView69"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente36"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca36"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes36"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente36"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente36"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes36"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre36"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente36"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="DESCONFORTO CORPORAL"
+                android:id="@+id/textView57"
+                android:layout_marginTop="48dp"
+                android:autoText="false"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:textColor="#020202"
+                android:layout_below="@+id/checkSempre36"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="37. Teve cãibras musculares doloridas ou espasmos?"
+                android:id="@+id/textView63"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView57"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca37"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView63"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente37"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca37"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes37"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente37"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente37"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes37"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre37"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente37"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="38. Teve dores nas articulações ou no corpo?"
+                android:id="@+id/textView64"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre37"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca38"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView64"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente38"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca38"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes38"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente38"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente38"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes38"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre38"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente38"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="39. Sentiu-se desconfortável no frio ou no calor?"
+                android:id="@+id/textView65"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkSempre38"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca"
+                android:id="@+id/checkNunca39"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/textView65"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente"
+                android:id="@+id/checkRaramente39"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkNunca39"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algumas vezes"
+                android:id="@+id/checkAlgumasVezes39"
+                android:checked="false"
+                android:layout_alignParentStart="true"
+                android:onClick="onCheckboxClicked"
+                android:layout_below="@+id/checkRaramente39"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente"
+                android:id="@+id/checkFrequentemente39"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkAlgumasVezes39"
+                android:layout_alignParentLeft="true" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre"
+                android:id="@+id/checkSempre39"
+                android:checked="false"
+                android:onClick="onCheckboxClicked"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/checkFrequentemente39"
+                android:layout_alignParentLeft="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enviar"
+                android:id="@+id/btEnviarPdq"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

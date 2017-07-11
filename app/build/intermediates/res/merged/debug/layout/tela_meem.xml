@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollMeem"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fillViewport="false"
+        android:focusable="false"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        android:contextClickable="false"
+        android:nestedScrollingEnabled="false"
+        android:touchscreenBlocksFocus="false" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="2000dp">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ano"
+        android:id="@+id/checkAno"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/txtPdq39"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:onClick="onCheckboxClicked"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mini Exame do Estado Mental (MEEM)"
+        android:id="@+id/txtPdq39"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1. Orientação espacial (0-5 pontos):"
+        android:id="@+id/textView2"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/txtPdq39"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Em que dia estamos?"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semestre"
+        android:id="@+id/checkSemestre"
+        android:checked="false"
+        android:layout_below="@+id/checkAno"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mês"
+        android:id="@+id/checkMes"
+        android:checked="false"
+        android:layout_below="@+id/checkSemestre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dia"
+        android:id="@+id/checkDia"
+        android:checked="false"
+        android:layout_alignTop="@+id/checkAno"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dia da semana"
+        android:id="@+id/checkDiaSemana"
+        android:checked="false"
+        android:layout_alignTop="@+id/checkSemestre"
+        android:layout_alignLeft="@+id/checkDia"
+        android:layout_alignStart="@+id/checkDia"
+        android:onClick="onCheckboxClicked"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="2. Orientação espacial (0-5 pontos):"
+        android:id="@+id/textView4"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/checkMes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Onde estamos?"
+        android:id="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado"
+        android:id="@+id/checkEstado"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cidade"
+        android:id="@+id/checkCidade"
+        android:checked="false"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkEstado"
+        android:layout_alignParentLeft="true"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bairro"
+        android:id="@+id/checkBairro"
+        android:checked="false"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/checkCidade"
+        android:layout_alignParentLeft="true"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rua"
+        android:id="@+id/checkRua"
+        android:checked="false"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/checkDiaSemana"
+        android:layout_alignStart="@+id/checkDiaSemana"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Local"
+        android:id="@+id/checkLocal"
+        android:checked="false"
+        android:layout_below="@+id/checkRua"
+        android:layout_alignLeft="@+id/checkRua"
+        android:layout_alignStart="@+id/checkRua"
+        android:onClick="onCheckboxClicked"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="3. Repita as palavras (0-3 pontos):"
+        android:id="@+id/textView6"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/checkBairro"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tapete"
+        android:id="@+id/checkAlgumasVezes1"
+        android:checked="false"
+        android:layout_below="@+id/checkRaramente1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Caneca"
+        android:id="@+id/checkNunca1"
+        android:checked="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView6"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tijolo"
+        android:id="@+id/checkRaramente1"
+        android:checked="false"
+        android:layout_below="@+id/checkNunca1"
+        android:layout_alignParentLeft="true"
+        android:onClick="onCheckboxClicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="4. Cálculo (0-5 pontos):"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/checkAlgumasVezes1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O senhor faz cálculos?"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sim (vá para a pergunta 4a)"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Não (vá para a pergunta 4b)"
+            android:id="@+id/textView10"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4a. Se de 100 fossem tirados 7 quanto restaria? E se tirarmos mais 7?"
+            android:id="@+id/textView11"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="93"
+            android:id="@+id/check93"
+            android:checked="false"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="86"
+            android:id="@+id/check86"
+            android:checked="false"
+            android:layout_below="@+id/check93"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="79"
+            android:id="@+id/check79"
+            android:checked="false"
+            android:layout_below="@+id/check86"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="72"
+            android:id="@+id/check72"
+            android:checked="false"
+            android:layout_below="@+id/check79"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="65"
+            android:id="@+id/check65"
+            android:checked="false"
+            android:layout_below="@+id/check72"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4b. Soletre a palavra MUNDO de trás pra frente."
+            android:id="@+id/textView12"
+            android:layout_below="@+id/check65"
+            android:layout_alignParentLeft="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O"
+            android:id="@+id/checkO"
+            android:checked="false"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:id="@+id/checkD"
+            android:checked="false"
+            android:layout_below="@+id/checkO"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N"
+            android:id="@+id/checkN"
+            android:checked="false"
+            android:layout_below="@+id/checkD"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U"
+            android:id="@+id/checkU"
+            android:checked="false"
+            android:layout_below="@+id/checkN"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:id="@+id/checkM"
+            android:checked="false"
+            android:layout_below="@+id/checkU"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="5. Memorização (0-3 pontos):"
+            android:id="@+id/textView13"
+            android:layout_below="@+id/checkM"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peça para o entrevistado repetir as palavras ditas há pouco."
+            android:id="@+id/textView14"
+            android:layout_below="@+id/textView13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caneca"
+            android:id="@+id/checkCaneca2"
+            android:checked="false"
+            android:layout_below="@+id/textView14"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tijolo"
+            android:id="@+id/checkTijolo2"
+            android:checked="false"
+            android:layout_below="@+id/checkCaneca2"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tapete"
+            android:id="@+id/checkTapete2"
+            android:checked="false"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/checkTijolo2"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="6. Linguagem (0-2 pontos):"
+            android:id="@+id/textView15"
+            android:layout_below="@+id/checkTapete2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mostre um relógio e uma caneta e peça para o entrevistado para nomeá-los."
+            android:id="@+id/textView16"
+            android:layout_below="@+id/textView15"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relógio"
+            android:id="@+id/checkRelogio"
+            android:checked="false"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caneta"
+            android:id="@+id/checkCaneta"
+            android:checked="false"
+            android:layout_below="@+id/checkRelogio"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="7. Linguagem (1 ponto):"
+            android:id="@+id/textView17"
+            android:layout_below="@+id/checkCaneta"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solicite ao entrevistado que repita a frase:"
+            android:id="@+id/textView18"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView17"
+            android:layout_alignParentLeft="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEM AQUI, NEM ALI, NEM LÁ."
+            android:id="@+id/checkQuest7"
+            android:checked="false"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView18"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="8. Linguagem (0-3 pontos):"
+            android:id="@+id/textView19"
+            android:layout_below="@+id/checkQuest7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siga uma ordem de 3 estágios:"
+            android:id="@+id/textView20"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView19"
+            android:layout_alignParentLeft="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pegue esse papel com a mão direita."
+            android:id="@+id/checkQuest8a"
+            android:checked="false"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView20"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dobre-o no meio."
+            android:id="@+id/checkQuest8b"
+            android:checked="false"
+            android:layout_below="@+id/checkQuest8a"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coloque-o no chão."
+            android:id="@+id/checkQuest8c"
+            android:checked="false"
+            android:layout_below="@+id/checkQuest8b"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="9. Linguagem (1 ponto):"
+            android:id="@+id/textView21"
+            android:layout_below="@+id/checkQuest8c"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escreva em um papel: &quot;FECHE OS OLHOS&quot;. Peça para o entrevistado ler a ordem e executá-la."
+            android:id="@+id/checkQuest9"
+            android:checked="false"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView21"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="10. Linguagem (1 ponto):"
+            android:id="@+id/textView22"
+            android:layout_below="@+id/checkQuest9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peça para o entrevistado escrever uma frase completa. A frase deve ter um sujeito e um objeto e deve ter sentido. Ignore a ortografia."
+            android:id="@+id/checkQuest10"
+            android:checked="false"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView22"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="11. Linguagem (1 ponto):"
+            android:id="@+id/textView23"
+            android:layout_below="@+id/checkQuest10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peça ao entrevistado para copiar o seguinte desenho. Verifique se todos os lados estão preservados e se os lados da intersecção forma um quadrilátero. Tremor e rotação podem ser ignorados."
+            android:id="@+id/checkQuest11"
+            android:checked="false"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView23"
+            android:layout_alignParentLeft="true"
+            android:onClick="onCheckboxClicked"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:id="@+id/btEnviar"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pentagono11"
+            android:src="@drawable/pentagono11"
+            android:layout_below="@+id/checkQuest11"
+            android:layout_toRightOf="@+id/checkTijolo2"
+            android:layout_toEndOf="@+id/checkTijolo2" />
+
+    </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>

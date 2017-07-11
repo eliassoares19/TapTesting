@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O PDQ-39 é uma escala específica para a DP e compreende 39 itens, que podem ser respondidos com cinco opções diferentes de resposta: &quot;Nunca, Raramente, Algumas Vezes, Frequentemente e Sempre&quot;."
+        android:id="@+id/textView70"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Teste"
+        android:id="@+id/btIniciarPdq"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leia atentamente as questões e responda apenas uma resposta para cada pergunta."
+        android:id="@+id/textView71"
+        android:layout_below="@+id/textView70"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp" />
+</RelativeLayout>
